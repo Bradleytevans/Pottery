@@ -16,13 +16,13 @@ export default function Navibar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link to="/Previously-Sold" as={NavLink}>
+            <Nav.Link to="/PreviouslySold" as={NavLink}>
               Previously Sold
             </Nav.Link>
-            <Nav.Link to="/About-Us" as={NavLink}>
+            <Nav.Link to="/AboutUs" as={NavLink}>
               About Us
             </Nav.Link>
-            <Nav.Link to="/Contact-Us" as={NavLink}>
+            <Nav.Link to="/ContactUs" as={NavLink}>
               Contact Us
             </Nav.Link>
             <Nav.Link to="/Store" as={NavLink}>

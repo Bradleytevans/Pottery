@@ -24,10 +24,10 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Landing />} />
               <Route path="/WhiteWaterPottery" element={<Landing />} />
-              <Route path="/Previously-Sold" element={<PreviouslySold />} />
-              <Route path="/About-Us" element={<AboutUs />} />
+              <Route path="/PreviouslySold" element={<PreviouslySold />} />
+              <Route path="/AboutUs" element={<AboutUs />} />
               <Route path="/Store" element={<Store />} />
-              <Route path="/Contact-Us" element={<ContactUs />} />
+              <Route path="/ContactUs" element={<ContactUs />} />
             </Routes>
           </StyledContentWrapper>
         </StyledApp>
