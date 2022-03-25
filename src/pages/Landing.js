@@ -62,7 +62,6 @@ const LandingBody = styled.div`
     padding: 15px 20px;
     margin: 0;
     font-size: large;
-    text-decoration: bold;
     font-weight: bold;
   }
   p {
