@@ -1,17 +1,23 @@
 import React from "react";
 import styled from "styled-components";
 import { Carousel, Card } from "react-bootstrap";
-import One from "../images/1.jpg";
-import Two from "../images/2.jpg";
-import Three from "../images/3.jpg";
+import One from "../images/36784.jpeg";
+import Two from "../images/36784.jpeg";
+import Three from "../images/36786.jpeg";
+import Four from "../images/36788.jpeg";
+import Five from "../images/36790.jpeg";
+import Six from "../images/36792.jpeg";
+import Seven from "../images/36795.jpeg";
+import Eight from "../images/36798.jpeg";
+
 export default function Landing() {
   return (
     <body>
       <br></br>
-
       <LandingCard>
         <LandingBody>
-          <h1>Welcome to Pottery!</h1>
+          <h1>Welcome to White Water Pottery!</h1>
+          <p>Handcrafted pieces made with love and care.</p>
         </LandingBody>
       </LandingCard>
       <br></br>
@@ -19,28 +25,27 @@ export default function Landing() {
         <Carousel>
           <Carousel.Item>
             <img className="d-block w-100" src={One} alt="First slide" />
-            <Carousel.Caption>
-              <h3>First slide label</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100" src={Two} alt="Second slide" />
-
-            <Carousel.Caption>
-              <h3>Second slide label</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </Carousel.Caption>
+            <img className="d-block w-100" src={Two} alt="First slide" />
           </Carousel.Item>
           <Carousel.Item>
-            <img className="d-block w-100" src={Three} alt="Third slide" />
-
-            <Carousel.Caption>
-              <h3>Third slide label</h3>
-              <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-              </p>
-            </Carousel.Caption>
+            <img className="d-block w-100" src={Three} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={Four} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={Five} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={Six} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={Seven} alt="First slide" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={Eight} alt="First slide" />
           </Carousel.Item>
         </Carousel>
       </CarouselCard>
@@ -50,34 +55,32 @@ export default function Landing() {
 }
 
 const LandingCard = styled.div`
-  width: 70vh;
+  width: 80%;
   text-align: center;
   margin: 0 auto;
   opacity: 85%;
   background-color: black;
   border-radius: 5px;
-
-  color: white;
+  color: turquoise;
 `;
 const LandingBody = styled.div`
-  padding: 30px 30px;
-  box-shadow: 5px 5px grey;
+  padding: 15px 15px;
   border-radius: 5px;
 
   h1 {
-    padding: 20px 30px;
-    border: solid white 1px;
+    padding: 15px 20px;
+    border: solid turquoise 1px;
     border-radius: 5px;
   }
   p {
     padding: 20px;
-    border: solid white 1px;
+    border: solid turquoise 1px;
     border-radius: 5px;
     margin: 0;
   }
 `;
 const CarouselCard = styled.div`
-  width: 100vh;
+  width: 80%;
   text-align: center;
   margin: 0 auto;
   opacity: 85%;

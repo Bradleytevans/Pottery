@@ -20,7 +20,7 @@ return(
 }
 
 const LandingCard = styled.div`
-width:70vh;
+width:70%;
 text-align:center;
 margin: 0 auto;
 opacity: 85%;

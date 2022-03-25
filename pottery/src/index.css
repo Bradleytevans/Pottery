@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 code {
@@ -14,4 +15,14 @@ code {
 .carousel-inner > .item > img {
   width:640px;
   height:360px;
+}
+.navbar-brand {
+  color: turquoise;
+}
+a.navbar-brand.active {
+  color: turquoise;
+}
+.navbar-dark
+.navbar-brand{
+  color: turquoise;
 }

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 
-export default function Landing() {
+export default function PreviouslySold() {
 return(
     <body className="landing">
         <br></br>
@@ -11,7 +11,7 @@ return(
     <LandingCard>
     <LandingBody>
     <h1>
-        Checkout our Work!
+        Previously sold
     </h1>
 
     </LandingBody>  
@@ -21,7 +21,7 @@ return(
 }
 
 const LandingCard = styled.div`
-width:70vh;
+width:70%;
 text-align:center;
 margin: 0 auto;
 opacity: 85%;
