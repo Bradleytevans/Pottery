@@ -2,13 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { Carousel, Card } from "react-bootstrap";
 import One from "../images/36784.jpeg";
-import Two from "../images/36784.jpeg";
-import Three from "../images/36786.jpeg";
-import Four from "../images/36788.jpeg";
-import Five from "../images/36790.jpeg";
-import Six from "../images/36792.jpeg";
-import Seven from "../images/36795.jpeg";
-import Eight from "../images/36798.jpeg";
+import Two from "../images/36786.jpeg";
+import Three from "../images/36788.jpeg";
+import Four from "../images/36790.jpeg";
+import Five from "../images/36792.jpeg";
+import Six from "../images/36795.jpeg";
+import Seven from "../images/36798.jpeg";
 
 export default function Landing() {
   return (
@@ -43,9 +42,6 @@ export default function Landing() {
           </Carousel.Item>
           <Carousel.Item>
             <img className="d-block w-100" src={Seven} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Eight} alt="First slide" />
           </Carousel.Item>
         </Carousel>
       </CarouselCard>

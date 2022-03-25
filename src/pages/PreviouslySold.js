@@ -27,23 +27,20 @@ margin: 0 auto;
 opacity: 85%;
 background-color: black;
 border-radius: 5px;
-
-color: white;
+color: turquoise;
 `
 const LandingBody =  styled.div`
 padding:30px 30px;
-box-shadow: 5px 5px grey;
 border-radius: 5px;
-
 h1{
-    padding: 20px 30px;
-    border: solid white 1px;
+    padding: 10px 20px;
+    border: solid turquoise 1px;
     border-radius: 5px;
-
+margin: 0;
 }
 p{
     padding:20px;
-    border: solid white 1px;
+    border: solid turquoise 1px;
     border-radius: 5px;
     margin:0;
 }
