@@ -61,7 +61,7 @@ const LandingBody = styled.div`
   h1 {
     padding: 15px 20px;
     margin: 0;
-    font-size: large;
+    font-size: x-large;
     font-weight: bold;
   }
   p {
