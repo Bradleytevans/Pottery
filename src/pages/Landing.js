@@ -55,12 +55,17 @@ const LandingCard = styled.div`
   background-color: black;
   border-radius: 5px;
   color: turquoise;
+
 `;
 const LandingBody = styled.div`
   padding: 15px 15px;
   h1 {
     padding: 15px 20px;
     margin: 0;
+  font-size: medium;
+  text-decoration: bold;
+  font-weight: bold;
+
   }
   p {
     padding: 20px;

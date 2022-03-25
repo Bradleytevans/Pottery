@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar";
 import styled from "styled-components";
 
 //Pages
-import PreviouslySold from "./pages/PreviouslySold";
+import Archive from "./pages/Archive";
 import AboutUs from "./pages/AboutUs";
 import Landing from "./pages/Landing";
 import Store from "./pages/Store";
@@ -24,7 +24,7 @@ export default function App() {
             <Routes>
               <Route path="/" element={<Landing />} />
               <Route path="/WhiteWaterPottery" element={<Landing />} />
-              <Route path="/PreviouslySold" element={<PreviouslySold />} />
+              <Route path="/Archive" element={<Archive />} />
               <Route path="/AboutUs" element={<AboutUs />} />
               <Route path="/Store" element={<Store />} />
               <Route path="/ContactUs" element={<ContactUs />} />

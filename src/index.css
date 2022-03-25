@@ -18,6 +18,7 @@ code {
 }
 .navbar-brand {
   color: turquoise;
+  font-size: medium;
 }
 a.navbar-brand.active {
   color: turquoise;

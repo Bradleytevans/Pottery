@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 
 
-export default function PreviouslySold() {
+export default function Archive() {
 return(
     <body className="landing">
         <br></br>
@@ -11,7 +11,7 @@ return(
     <LandingCard>
     <LandingBody>
     <h1>
-        Previously sold
+        An archive of past collections and sold pieces.
     </h1>
 
     </LandingBody>  
@@ -26,22 +26,16 @@ text-align:center;
 margin: 0 auto;
 opacity: 85%;
 background-color: black;
-border-radius: 5px;
 color: turquoise;
 `
 const LandingBody =  styled.div`
 padding:30px 30px;
-border-radius: 5px;
 h1{
     padding: 10px 20px;
-    border: solid turquoise 1px;
-    border-radius: 5px;
     margin: 0;
 }
 p{
     padding:20px;
-    border: solid turquoise 1px;
-    border-radius: 5px;
     margin:0;
 }
 

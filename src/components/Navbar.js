@@ -16,8 +16,8 @@ export default function Navibar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link to="/PreviouslySold" as={NavLink}>
-              Previously Sold
+            <Nav.Link to="/Archive" as={NavLink}>
+              Archive
             </Nav.Link>
             <Nav.Link to="/AboutUs" as={NavLink}>
               About Us
