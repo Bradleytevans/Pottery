@@ -21,7 +21,7 @@ return(
 }
 
 const LandingCard = styled.div`
-width:70%;
+width:80%;
 text-align:center;
 margin: 0 auto;
 opacity: 85%;

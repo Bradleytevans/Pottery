@@ -14,32 +14,32 @@ export default function Landing() {
     <body>
       <LandingCard>
         <LandingBody>
-          <h1>Welcome to  The White Water Potter!</h1>
+          <h1>Welcome to The White Water Potter!</h1>
           <CarouselCard>
-        <Carousel>
-          <Carousel.Item>
-            <img className="d-block w-100" src={One} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Two} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Three} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Four} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Five} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Six} alt="First slide" />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Seven} alt="First slide" />
-          </Carousel.Item>
-        </Carousel>
-      </CarouselCard>
+            <Carousel>
+              <Carousel.Item>
+                <img className="d-block w-100" src={One} alt="First slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={Two} alt="First slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={Three} alt="First slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={Four} alt="First slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={Five} alt="First slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={Six} alt="First slide" />
+              </Carousel.Item>
+              <Carousel.Item>
+                <img className="d-block w-100" src={Seven} alt="First slide" />
+              </Carousel.Item>
+            </Carousel>
+          </CarouselCard>
           <p>Handcrafted pieces made with love and care.</p>
         </LandingBody>
       </LandingCard>
@@ -48,24 +48,22 @@ export default function Landing() {
 }
 
 const LandingCard = styled.div`
-  width: 80%;
+  width: 90%;
   text-align: center;
   margin: 0 auto;
   opacity: 85%;
   background-color: black;
   border-radius: 5px;
   color: turquoise;
-
 `;
 const LandingBody = styled.div`
   padding: 15px 15px;
   h1 {
     padding: 15px 20px;
     margin: 0;
-  font-size: medium;
-  text-decoration: bold;
-  font-weight: bold;
-
+    font-size: medium;
+    text-decoration: bold;
+    font-weight: bold;
   }
   p {
     padding: 20px;
@@ -73,7 +71,7 @@ const LandingBody = styled.div`
   }
 `;
 const CarouselCard = styled.div`
-  width: 80%;
+  width: 90%;
   text-align: center;
   margin: 0 auto;
   opacity: 85%;
