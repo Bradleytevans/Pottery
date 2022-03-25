@@ -22,11 +22,12 @@ export default function App() {
           </StyledNavbarWrapper>
           <StyledContentWrapper>
             <Routes>
-              <Route path="WhiteWaterPottery/" element={<Landing />} />
-              <Route path="WhiteWaterPottery/Previously-Sold" element={<PreviouslySold />} />
-              <Route path="WhiteWaterPottery/About-Us" element={<AboutUs />} />
-              <Route path="WhiteWaterPottery/Store" element={<Store />} />
-              <Route path="WhiteWaterPottery/Contact-Us" element={<ContactUs />} />
+              <Route path="/" element={<Landing />} />
+              <Route path="/WhiteWaterPottery" element={<Landing />} />
+              <Route path="/Previously-Sold" element={<PreviouslySold />} />
+              <Route path="/About-Us" element={<AboutUs />} />
+              <Route path="/Store" element={<Store />} />
+              <Route path="/Contact-Us" element={<ContactUs />} />
             </Routes>
           </StyledContentWrapper>
         </StyledApp>
