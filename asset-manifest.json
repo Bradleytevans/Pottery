@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/WhiteWaterPottery/static/css/main.8de693c5.css",
-    "main.js": "/WhiteWaterPottery/static/js/main.372542a6.js",
+    "main.js": "/WhiteWaterPottery/static/js/main.f4f02da9.js",
     "static/js/787.5ad038b9.chunk.js": "/WhiteWaterPottery/static/js/787.5ad038b9.chunk.js",
     "static/media/36786.jpeg": "/WhiteWaterPottery/static/media/36786.af44c62d21cd69227913.jpeg",
     "static/media/36790.jpeg": "/WhiteWaterPottery/static/media/36790.fb0695fb71026379687a.jpeg",
@@ -12,11 +12,11 @@
     "static/media/36784.jpeg": "/WhiteWaterPottery/static/media/36784.71946f928ee749feffa6.jpeg",
     "index.html": "/WhiteWaterPottery/index.html",
     "main.8de693c5.css.map": "/WhiteWaterPottery/static/css/main.8de693c5.css.map",
-    "main.372542a6.js.map": "/WhiteWaterPottery/static/js/main.372542a6.js.map",
+    "main.f4f02da9.js.map": "/WhiteWaterPottery/static/js/main.f4f02da9.js.map",
     "787.5ad038b9.chunk.js.map": "/WhiteWaterPottery/static/js/787.5ad038b9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8de693c5.css",
-    "static/js/main.372542a6.js"
+    "static/js/main.f4f02da9.js"
   ]
 }
