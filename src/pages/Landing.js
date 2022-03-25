@@ -12,15 +12,10 @@ import Seven from "../images/36798.jpeg";
 export default function Landing() {
   return (
     <body>
-      <br></br>
       <LandingCard>
         <LandingBody>
-          <h1>Welcome to White Water Pottery!</h1>
-          <p>Handcrafted pieces made with love and care.</p>
-        </LandingBody>
-      </LandingCard>
-      <br></br>
-      <CarouselCard>
+          <h1>Welcome to  The White Water Potter!</h1>
+          <CarouselCard>
         <Carousel>
           <Carousel.Item>
             <img className="d-block w-100" src={One} alt="First slide" />
@@ -45,7 +40,9 @@ export default function Landing() {
           </Carousel.Item>
         </Carousel>
       </CarouselCard>
-      <br></br>
+          <p>Handcrafted pieces made with love and care.</p>
+        </LandingBody>
+      </LandingCard>
     </body>
   );
 }
@@ -61,17 +58,12 @@ const LandingCard = styled.div`
 `;
 const LandingBody = styled.div`
   padding: 15px 15px;
-  border-radius: 5px;
-
   h1 {
     padding: 15px 20px;
-    border: solid turquoise 1px;
-    border-radius: 5px;
+    margin: 0;
   }
   p {
     padding: 20px;
-    border: solid turquoise 1px;
-    border-radius: 5px;
     margin: 0;
   }
 `;

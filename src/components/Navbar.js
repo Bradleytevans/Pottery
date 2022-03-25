@@ -11,7 +11,7 @@ export default function Navibar() {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand as={NavLink} to="/">
-          White Water Pottery
+          The White Water Potter
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
