@@ -36,7 +36,7 @@ h1{
     padding: 10px 20px;
     border: solid turquoise 1px;
     border-radius: 5px;
-margin: 0;
+    margin: 0;
 }
 p{
     padding:20px;

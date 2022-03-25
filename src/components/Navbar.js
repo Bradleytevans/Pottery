@@ -10,22 +10,22 @@ export default function Navibar() {
     <NavbarCon>
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand as={NavLink} to="/">
+        <Navbar.Brand as={NavLink} to="WhiteWaterPottery/">
           White Water Pottery
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link to="/Previously-Sold" as={NavLink}>
+            <Nav.Link to="WhiteWaterPottery/Previously-Sold" as={NavLink}>
               Previously Sold
             </Nav.Link>
-            <Nav.Link to="/About-Us" as={NavLink}>
+            <Nav.Link to="WhiteWaterPottery/About-Us" as={NavLink}>
               About Us
             </Nav.Link>
-            <Nav.Link to="/Contact-Us" as={NavLink}>
+            <Nav.Link to="WhiteWaterPottery/Contact-Us" as={NavLink}>
               Contact Us
             </Nav.Link>
-            <Nav.Link to="/Store" as={NavLink}>
+            <Nav.Link to="WhiteWaterPottery/Store" as={NavLink}>
               Store
             </Nav.Link>
           </Nav>
